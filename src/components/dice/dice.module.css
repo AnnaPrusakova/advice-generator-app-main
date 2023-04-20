@@ -1,5 +1,5 @@
 .diceWrapper {
-    @apply relative w-16 h-16 cursor-pointer;
+    @apply relative w-16 h-16 cursor-pointer rounded-full hover:shadow-3xl hover:shadow-neon_green;
 }
 
 .dice {

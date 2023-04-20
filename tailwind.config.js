@@ -21,9 +21,9 @@ module.exports = {
             light_cyan: '#CEE3E9',
             neon_green: '#53FFAA'
         },
-      fontFamily: {
-        quote: ['Manrope', 'extra-bold'],
-      }
+        boxShadow: {
+            '3xl': '0 0 40px #53FFAA',
+        }
     },
     plugins: [],
 }
