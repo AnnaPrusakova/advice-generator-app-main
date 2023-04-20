@@ -1,0 +1,3 @@
+.card {
+    @apply w-[34rem] h-[21rem] mx-auto bg-dark_grayish_blue rounded-2xl;
+}

@@ -1,0 +1,11 @@
+.diceWrapper {
+    @apply relative w-16 h-16 cursor-pointer;
+}
+
+.dice {
+    @apply w-16 h-16 bg-neon_green rounded-full;
+}
+
+.icon {
+    @apply absolute w-8 h-8 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
