@@ -20,11 +20,11 @@ export function Card(): JSX.Element {
                 setAdvice(data.slip);
             });
     };
-    console.log(advice);
+
     return (
         <div className={styles.card}>
             <div className={styles.id}>ADVICE #{advice.id}</div>
-            <div className={styles.advice}>"{advice.advice}"</div>
+            <div className={styles.advice}>{`"${advice.advice}"`}</div>
             <Image src={Divider} alt={'divider'} className={styles.divider}/>
             <Image src={DividerMobile} alt={'divider_mobile'} className={styles.dividerMobile}/>
             <div className={styles.diceBtn}>
